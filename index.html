@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trabalho Unidade 1</title>
+
+        <link rel="stylesheet" href="_css/estilo.css">
+        <script src="_js/main.js"></script>
+
+    </head>
+    <body>
+        <div id="conteiner">
+            <h1 id="titulo-inicial">Altere as cores do Layout</h1>
+            <nav class="menu">
+                <button class="botao botao-white" onclick="layoutCor1()">White</button>
+                <button class="botao botao-verde" onclick="layoutCor2()">Green</button>
+                <button class="botao botao-azul" onclick="layoutCor3()">Blue</button>
+            </nav>     
+            
+            <!--COMANDOS DO WESLEY -- TODO LIST-->
+                <div id="principal">
+                    <h2 class="comentario">Nos deixe um comentário &#128579;</h2>
+                    <label class="label-formulario">Nome:</label>
+                    <input type="text" id="nome">
+                    <label class="label-formulario">Mensagem: </label>
+                    <textarea id="mensagem"></textarea>  
+                    <button id="botao-add"class="button" onclick="addElemento()">Adicionar</button>
+                    <h2 class="comentario">Comentários &#128071;</h2>
+                </div>
+
+        </div>
+        
+        <footer id="rodape">
+            <h2>Créditos &#128079;</h2>
+            <div id="popup-1" class="popup">
+                <div class="sobreposto"></div>
+                <div class="conteudo">
+                    <div class="close-btn" onclick="togglePopup()">&times;</div>
+                    <h2>Equipe:</h2>
+                    <p>
+                        Francisco Iuri Ramos - 428576 <br>
+                        Jander Douglas Morais - 411571 <br>
+                        Wesley Santos Sousa - 412552  
+                    </p>
+                </div>    
+            </div>        
+
+            <button id="btn-devs" class="button" onclick="togglePopup()">Devs</button>
+        </footer>
+
+
+
+    </body>
+</html>
